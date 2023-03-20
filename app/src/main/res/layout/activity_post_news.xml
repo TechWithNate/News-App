@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PostNews">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_txt"
+        android:text="Post Your News Article"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/thumbnail"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/title_txt"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/thumbnail"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thumbnail"
+        android:layout_marginTop="20dp"
+        android:hint="Title"
+        android:textColor="@color/black"
+        android:textColorHint="#434343"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/title"
+        android:background="@drawable/text_bg"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:id="@+id/news_source"
+            android:background="@drawable/text_bg"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="ghananews.com"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="#434343"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/text_bg"
+        android:layout_below="@+id/news_source"
+        android:layout_marginTop="20dp"
+        android:hint="Start typing your blog post here..."
+        android:textColorHint="#434343"
+        android:textSize="15sp"
+        android:gravity="start"
+        android:singleLine="false"
+        android:textColor="@color/black"
+        android:id="@+id/blog"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/blog"
+            android:id="@+id/post_btn"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            app:backgroundTint="#2D2D2D"
+            android:text="PUBLISH"
+            android:textColor="@color/white"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

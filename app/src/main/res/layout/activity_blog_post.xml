@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:orientation="vertical"
+    android:background="#2D2D2D"
+    tools:context=".BlogPost">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="How Will The Premier League Season End For The 2022/23 Season? Betting Trends And More"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:layout_marginTop="20dp"
+        android:id="@+id/title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nate.com"
+        android:textSize="10sp"
+        android:id="@+id/news_source"
+        android:textColor="@color/white"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_posted"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:layout_alignParentEnd="true"
+        android:text="Mar 3, 2020 9:20AM"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#ACABAB"
+        android:id="@+id/horizontal_line"
+        android:layout_below="@+id/time_posted"
+        android:layout_marginTop="0dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/horizontal_line"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="centerCrop"
+        android:id="@+id/thumbnail"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thumbnail"
+        android:textColor="@color/white"
+        android:textAlignment="gravity"
+        android:layout_marginTop="20dp"
+        android:id="@+id/news_article"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

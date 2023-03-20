@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "699621100311",
+    "project_id": "apex-news-2b46d",
+    "storage_bucket": "apex-news-2b46d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699621100311:android:e3d0d13abac9cd35e6c552",
+        "android_client_info": {
+          "package_name": "com.tech.apexnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699621100311-dquqp1l2qi5utgs8jt7q7jmge2hhfrq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tech.apexnews",
+            "certificate_hash": "b62c2cba3603f0053010ddcb06ffb0bec4437503"
+          }
+        },
+        {
+          "client_id": "699621100311-2fqd3ana9204ijm4t9tdhsjes0o4varc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfyP3RhTOiKaDCxDPWu9rEAV1gIpgZ0rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699621100311-2fqd3ana9204ijm4t9tdhsjes0o4varc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
